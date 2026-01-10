@@ -1,5 +1,5 @@
 
-package assignment_1;
+package assignment_2;
 
 import java.util.*;
 
