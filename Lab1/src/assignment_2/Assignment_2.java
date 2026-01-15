@@ -3,7 +3,7 @@ package assignment_2;
 
 import java.util.*;
 
-public class Assignment_1 {
+public class Assignment_2 {
 
     // 1. Reverse string using stack
     public static String reverseString(String s) {

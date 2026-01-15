@@ -8,7 +8,7 @@ public class Main {
 
         // TEST 1: Reverse string
         System.out.println("Reversed: " +
-                Assignment_1.reverseString("hello"));
+                Assignment_2.reverseString("hello"));
 
         // TEST 2: Sort stack
         Stack<Integer> st = new Stack<>();
@@ -16,7 +16,7 @@ public class Main {
         st.push(1);
         st.push(3);
         System.out.println("Sorted Stack: " +
-                Assignment_1.sortStack(st));
+                Assignment_2.sortStack(st));
 
         // TEST 3: Reverse queue
 
@@ -25,10 +25,10 @@ public class Main {
         q.add(20);
         q.add(30);
         System.out.println("Reversed Queue: " +
-                Assignment_1.reverseQueue(q));
+                Assignment_2.reverseQueue(q));
 
         // TEST 4: Priority queue
-        PriorityQueue<Integer> pq = Assignment_1.createPriorityQueue();
+        PriorityQueue<Integer> pq = Assignment_2.createPriorityQueue();
         pq.add(40);
         pq.add(10);
         pq.add(30);
@@ -44,6 +44,6 @@ public class Main {
         Queue<Integer> q2 = new LinkedList<>(Arrays.asList(2, 4, 6));
 
         System.out.println("\nMerged Queue: " +
-                Assignment_1.mergeSortedQueues(q1, q2));
+                Assignment_2.mergeSortedQueues(q1, q2));
     }
 }
